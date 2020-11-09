@@ -3,14 +3,14 @@ pipeline{
     stages{
         stage("A"){
             steps{
-                echo "========executing A========"
+                echo "========executing A after changing stuff in my repo========"
             }
             post{
                 always{
                     echo "========always========"
                 }
                 success{
-                    echo "========A executed successfully========"
+                    echo "========A executed successfully ========"
                 }
                 failure{
                     echo "========A execution failed========"
