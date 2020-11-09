@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("A"){
             steps{
-                echo "========executing A after changing stuff in my repo========"
+                echo "========executing A after changing stuff in my repo AND TESTING AGAING ========"
             }
             post{
                 always{
